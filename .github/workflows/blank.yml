@@ -34,3 +34,8 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+- name: Upload APK
+  uses: actions/upload-artifact@v4
+  with:
+    name: ADDO-MS
+    path: path/to/your/app.apk  # Badilisha hii iwe mahali ambapo APK yako itatokea
